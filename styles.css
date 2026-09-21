@@ -26,6 +26,10 @@ video {
     height: auto;
 }
 
+main img {
+    max-width: 700px;
+}
+
 nav {
     display: flex;
     flex-direction: row;
