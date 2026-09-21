@@ -20,6 +20,17 @@ header img {
     height: auto;
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+nav a {
+    color: #222222;
+    font-weight: bold;
+}
+
 main {
     width: 90%;
     max-width: 900px;
