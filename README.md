@@ -1,4 +1,4 @@
-# Introduction to Web Development — Touchstone Task 2
+# Introduction to Web Development
 
 Client Website Structure Build
 
