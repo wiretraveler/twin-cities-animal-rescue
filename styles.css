@@ -9,14 +9,14 @@ body {
 }
 
 header {
-    background-color: #20cfa5;
-    color: #222222;
+    background-color: #ffffff;
+    color: #17324D;
     padding: 20px;
     text-align: center;
 }
 
 header img {
-    max-width: 120px;
+    max-width: 180px;
     height: auto;
 }
 
@@ -42,7 +42,7 @@ section {
 }
 
 h2 {
-    color: #168f76;
+    color: #17324D;
 }
 
 footer {
