@@ -32,9 +32,8 @@ main img {
 
 nav {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 25px;
+    flex-direction: column;
+    gap: 10px;
 }
 
 nav a {
