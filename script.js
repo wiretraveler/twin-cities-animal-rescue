@@ -13,6 +13,9 @@ function updateInterestInfo() {
 
 interest.addEventListener("change", updateInterestInfo);
 
+interest.value = localStorage.getItem("interest") || "";
+updateInterestInfo();
+
 function validateName() {
     const name = document.getElementById("name").value.trim();
     const error = document.getElementById("name-error");
