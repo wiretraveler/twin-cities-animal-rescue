@@ -35,3 +35,9 @@ function validateEmail() {
     error.textContent = "";
     return true;
 }
+
+document.getElementById("interest-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    validateName();
+    validateEmail();
+});
