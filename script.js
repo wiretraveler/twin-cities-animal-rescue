@@ -7,6 +7,8 @@ const interest = document.getElementById("interest");
 function updateInterestInfo() {
     document.getElementById("interest-info").textContent =
         interestDetails[interest.value] || "";
+
+    localStorage.setItem("interest", interest.value);
 }
 
 interest.addEventListener("change", updateInterestInfo);
