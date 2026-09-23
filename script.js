@@ -42,7 +42,10 @@ function validateEmail() {
 }
 
 document.getElementById("interest-form").addEventListener("submit", function(event) {
-    event.preventDefault();
-    validateName();
-    validateEmail();
+    const nameValid = validateName();
+    const emailValid = validateEmail();
+
+    if (!nameValid || !emailValid) {
+        event.preventDefault();
+    }
 });
